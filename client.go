@@ -633,5 +633,5 @@ func isTemporary(err error) bool {
 		// temporary.
 		return err.Timeout()
 	}
-	return false
+	return true
 }
